@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(6, 46, 73);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: rgb(6, 46, 73);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+
+}
+
+.header a {
+  color: #fff;
+}
+
+.header a:hover {
+  color: seagreen;
+  border-bottom: 2px solid rgb(94, 122, 107);
+}
+
+.nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav li + li {
+  margin-left: 20px;
+}
+.nav ul li img {
+  width: 30px;
+}
+.container {
+  background-color: rgb(11, 35, 51);
+  background-image: url("../logocafe.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:80vh;
+  border-bottom: 5px solid rgb(160, 39, 39);
+  z-index: -1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.container ul {
+  display: flex;
+  
+}
+
+
+.container ul li a {
+  color: #fff;
+  background-color: rgb(11, 35, 51);
+  padding: 25px;
+  margin: 0 10px;
+  border: 2px solid #fff;
+}
+
+.container ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(12, 11, 11);
+}

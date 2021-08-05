@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(11, 35, 51);
+    background-image: url("../HORARIO.png");
+    background-repeat: no-repeat;
+    background-size: none;
+    height:500px;
+
+}
+div {
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
